@@ -17,7 +17,8 @@ const routes: Routes = [
   },
   { path: 'toc', loadChildren: './toc/toc.module#TocPageModule' },
   { path: 'chapter1', loadChildren: './chapter1/chapter1.module#Chapter1PageModule' },
-  { path: 'chapter2', loadChildren: './chapter2/chapter2.module#Chapter2PageModule' }
+  { path: 'chapter2', loadChildren: './chapter2/chapter2.module#Chapter2PageModule' },
+  { path: 'chapter1p1', loadChildren: './chapter1p1/chapter1p1.module#Chapter1p1PageModule' }
   ];
 
 @NgModule({
